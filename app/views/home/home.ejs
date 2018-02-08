@@ -1,0 +1,44 @@
+<% include ../head %>
+<% include ../menuout %>
+
+
+        <div id="home" class="container1" style="padding-top:40px">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h1>H.A.A.B v0.8</h1>
+              <p>Habitat Agriculture and Automated Biosphere</p>
+              <hr>
+            </div>
+          </div>
+          <div class="row">
+
+              <section class="container col-sm-12" id="mainform">
+                  <section class="login-form">
+                    <% if (message.length > 0) { %>
+                        <div class="alert alert-danger col-sm-12"><%= message %></div>
+                    <% } %>
+                      <form id="loginform" method="post" action="/login" role="login">
+                        <section class="form-outer">
+                          <input id="login-username" type="text" class="form-control" name="user_name" value="" placeholder="username">
+                          <input id="login-password" type="password" class="form-control" name="password" placeholder="password">
+                          <button id="btn-login" type="submit" class="btn btn-success">Login  </button>
+                          <!--<div class="checkbox">
+                            <label>
+                              <input id="login-remember" type="checkbox" name="remember" value="1"> Remember me
+                            </label>
+                          </div>-->
+                          <div class="form-links">
+                            <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%" >
+                              Don't have an account!
+                              <a href="/signup">
+                                  Sign Up Here
+                              </a>
+                            </div>
+                          </div>
+                        </section>
+                      </form>
+                </section>
+            </section>
+        </div>
+        <% include ../footer %>
+</html>

@@ -1,0 +1,3355 @@
+/home/bruno/Download/haabRESTv3/config
+(node:1906) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+Server running.
+connection error: { MongoError: failed to connect to server [10.127.11.150:27017] on first connect [MongoError: connect ECONNREFUSED 10.127.11.150:27017]
+    at Pool.<anonymous> (/home/bruno/Download/haabRESTv3/node_modules/mongodb-core/lib/topologies/server.js:328:35)
+    at emitOne (events.js:96:13)
+    at Pool.emit (events.js:188:7)
+    at Connection.<anonymous> (/home/bruno/Download/haabRESTv3/node_modules/mongodb-core/lib/connection/pool.js:280:12)
+    at Connection.g (events.js:292:16)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/home/bruno/Download/haabRESTv3/node_modules/mongodb-core/lib/connection/connection.js:177:49)
+    at Socket.g (events.js:292:16)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1281:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+  name: 'MongoError',
+  message: 'failed to connect to server [10.127.11.150:27017] on first connect [MongoError: connect ECONNREFUSED 10.127.11.150:27017]' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5570' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2210' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5600' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2200' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5710' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2190' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5630' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2170' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5560' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2140' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5550' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2130' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5580' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2120' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5580' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2110' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5570' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2100' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5550' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2090' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5590' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2080' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5550' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2070' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5580' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2060' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5550' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2050' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5580' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2040' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5570' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2029' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5590' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2029' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5590' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2020' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5580' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2000' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5610' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2000' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5630' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1990' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5660' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1979' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5660' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1979' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5680' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1970' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5710' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5710' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5720' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1950' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5750' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1950' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5720' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5730' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5710' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1929' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5710' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1920' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5740' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1920' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5720' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1920' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5720' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1910' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5720' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1900' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5720' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1900' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5730' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1890' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5760' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1879' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5810' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1870' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5800' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1860' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5800' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1870' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5760' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1860' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5760' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1860' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5770' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1860' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5780' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5780' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1840' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5770' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1840' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5760' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1840' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5780' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1829' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5780' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5730' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5720' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1860' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5700' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1870' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5720' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1879' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5670' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1879' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5690' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1890' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5740' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1900' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5850' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1910' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5960' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1910' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5800' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1879' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5750' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5730' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1840' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5670' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1829' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5600' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1810' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5530' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1800' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5480' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1800' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5430' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1790' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5400' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1779' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5390' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1770' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5360' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1760' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5320' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1760' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5250' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1760' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5250' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1760' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5230' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1779' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5280' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1790' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5280' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1820' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5220' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1829' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5250' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1840' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5070' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1860' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5120' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1879' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5060' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1890' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5100' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1920' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5370' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5520' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1970' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5780' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1970' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5730' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1979' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5690' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1990' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5650' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1990' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5610' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2010' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5530' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2010' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5520' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2020' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5460' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2010' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5430' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2020' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5420' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2020' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5400' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2020' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5390' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2040' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5340' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2040' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5400' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2050' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5390' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2060' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5360' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2060' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5390' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2050' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5380' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2020' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5360' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2010' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5360' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1990' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5370' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1970' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5360' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1970' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5460' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5380' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5400' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1929' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5410' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1929' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5420' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1920' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5420' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1900' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5430' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1900' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5420' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1890' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5440' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1879' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5430' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1879' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5440' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1870' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5460' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1860' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5450' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1860' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5450' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1860' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5470' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5480' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5490' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1840' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5530' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1829' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5690' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1870' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5660' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1890' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5510' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1900' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5430' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1920' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5400' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5380' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1950' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5410' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1970' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5390' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1970' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5390' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1979' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5380' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1979' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5390' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1990' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5380' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1990' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5360' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1990' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5350' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1990' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5360' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1979' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5360' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1990' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5360' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1979' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5360' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1979' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5350' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1979' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5370' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1979' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5370' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1979' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5390' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1970' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5400' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1970' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5400' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1970' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5410' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5410' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5410' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5410' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5430' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5420' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5420' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5430' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1950' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5430' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1950' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5430' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1950' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5430' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1950' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5440' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1950' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5440' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1950' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5440' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1950' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5450' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5440' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5450' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5430' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5430' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5420' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5420' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5430' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5420' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5430' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5420' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5420' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5420' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5420' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5420' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5420' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5410' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5410' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5410' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1929' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5410' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5470' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1929' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5390' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1929' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5400' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5420' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5540' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1950' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5490' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5480' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1920' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5470' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1920' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5500' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1910' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5480' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1910' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5470' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1910' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5500' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1890' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5520' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1879' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5510' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1950' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5460' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1929' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5390' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1920' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5540' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5710' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5750' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5720' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5660' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5590' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1950' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5570' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5790' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5630' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5540' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1950' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5500' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5540' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1950' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5500' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5480' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5500' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5510' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1940' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5490' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1950' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5460' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1950' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5450' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5410' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1990' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5600' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2020' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5650' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2020' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5730' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2020' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5750' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2010' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5770' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2020' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5770' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2010' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5800' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2010' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5790' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2000' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5800' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2000' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5780' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1990' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5780' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1990' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5790' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2000' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5750' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2020' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5650' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2029' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5640' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2029' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5630' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2020' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5640' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2020' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5630' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2020' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5700' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2020' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5630' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2029' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5640' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2040' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5630' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2040' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5670' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2050' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5710' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2060' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5720' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2060' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5720' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2060' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5690' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2060' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5710' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2029' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5610' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2029' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5570' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2040' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5560' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2029' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5590' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2029' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5680' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2029' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5790' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2020' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5830' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2020' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5820' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2020' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5810' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2029' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5760' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2020' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5800' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2070' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5990' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2090' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5880' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2080' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5810' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2090' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5790' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2080' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5800' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2070' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5780' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2040' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5830' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2040' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5830' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2040' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5810' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2020' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5840' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2000' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5840' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2000' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5820' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2000' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5800' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '2000' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5780' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1990' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5820' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1979' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5830' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1979' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5820' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1979' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5840' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1979' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5820' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5850' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5830' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5820' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5840' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1960' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5800' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1950' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5810' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1929' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5820' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1929' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5840' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1920' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5820' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1920' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5840' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1910' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5830' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1900' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5840' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1900' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5800' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1900' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5820' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1900' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5800' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1890' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5810' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1890' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5820' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1879' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5810' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1879' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5820' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1870' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5830' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1870' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5830' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1870' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5820' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1860' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5820' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1860' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5820' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1870' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5820' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5840' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1860' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5830' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1860' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5830' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5830' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1860' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5910' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1870' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5910' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1860' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5920' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1860' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5900' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1860' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5900' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1860' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5890' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5900' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1860' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5890' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5880' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5880' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5900' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5890' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1860' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5870' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5880' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5900' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5890' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5890' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5880' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1840' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5900' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5920' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5980' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1870' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5880' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1850' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5940' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1840' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5930' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1840' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5920' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1840' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5930' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1900' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5900' }
+{ type: 'Temperature',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '1890' }
+{ type: 'Humidity',
+  sensorid: 'HAABTH01',
+  unit: 'Metric',
+  scale: '100',
+  value: '5770' }

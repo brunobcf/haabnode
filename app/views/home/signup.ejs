@@ -1,0 +1,39 @@
+<% include ../head %>
+<% include ../menuout %>
+
+
+        <div id="home" class="container1" style="padding-top:40px">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h1>H.A.A.B v0.7</h1>
+              <p>Habitat Agriculture and Automated Biosphere</p>
+              <hr>
+            </div>
+          </div>
+          <div class="row">
+              <section class="container col-sm-12" id="mainform">
+                    <section class="login-form">
+                            <form method="post" action="/signup" onSubmit="return checkblank(this);" role="login">
+                              <section class="form-outer">
+                                <% if (message.length > 0) { %>
+                                  <div class="alert alert-success col-sm-12"><%= message %></div>
+                                <% } %>
+                                <div id="signupalert" style="display:none" class="alert alert-danger">
+                                    <p>Error:</p>
+                                <span></span>
+                                </div>
+                                       <input type="text" class="form-control" name="first_name" placeholder="First Name">
+                                        <input type="text" class="form-control" name="last_name" placeholder="Last Name">
+                                        <input type="number" class="form-control" name="mob_no" placeholder="Mobile Number">
+                                        <input type="text" class="form-control" name="user_name" placeholder="User Name">
+                                        <input type="password" class="form-control" name="password" placeholder="Password">
+                                        <button id="btn-signup" type="submit" class="btn btn-info"><i class="icon-hand-right"></i> &nbsp Sign Up</button>            
+                              </section>
+                            </form>
+                         </section>
+                    </section>
+              </div>
+          </div>
+        </div>
+        <% include ../footer %>
+</html>

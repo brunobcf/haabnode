@@ -1,0 +1,19 @@
+<html>
+  <body>
+      <table>
+          <tr>
+              <td>Timestamp</td>
+              <td>Event text</td>
+          </tr>
+
+            <% for(var i=0; i<list.length; i++) {%>
+                <tr>
+                    <td><%=list[i].create_date%></td>
+                    <td><%=list[i].text%></td>
+
+                </tr>
+            <% } %>
+
+      </table>
+  </body>
+</html>

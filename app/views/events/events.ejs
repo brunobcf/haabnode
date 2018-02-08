@@ -1,0 +1,38 @@
+<% include ../head %>
+<% include ../menubar %>
+
+        <div id="home" class="container1" style="padding-top:40px">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h1>Event list</h1>
+              <hr>
+            </div>
+          </div>
+        </div>
+
+        <div id="events" class="container2" style="padding-top:40px">
+          <div class="jumbotron">
+              <div class="table-responsive">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                        <th>Timestamp</td>
+                        <th>Event text</td>
+                    </tr>
+                  </thead>
+                    <tbody>
+                    <% for(var i=0; i<list.length; i++) {%>
+                        <tr>
+                            <td><%=list[i].create_date%></td>
+                            <td><%=list[i].text%></td>
+                        </tr>
+                    <% } %>
+                    </tbody>
+                </table>
+              </div>
+          </div>
+        </div>
+        <hr>
+<% include ../footer %>
+
+</html>

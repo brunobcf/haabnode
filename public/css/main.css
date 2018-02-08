@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+@import url(https://fonts.googleapis.com/css?family=Monoton);
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+
+
+h1 {
+  font-family: Orbitron, Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+body {
+    background-color: #484848;
+    background-image: url(../images/background.png)
+}
+
+a:link {
+  color: blue
+}
+a:visited {
+  color: purple
+}
+
+.row {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	margin-right: auto;
+	margin-left: auto; /* Margin-left and right are set to auto to center the container */
+}
+.container2 {
+    min-height:620px;
+    height: 100%;
+    padding: 0px 50px 0px 50px;
+
+}
+.row2 {
+    text-align: left;
+    margin: 10px;
+    border-radius: 12px;
+    height: 550px;
+    width:100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.71), rgba(92, 92, 92, 0.7));
+    border: 2px solid rgba(72, 250, 243, 0.82);
+    padding: 0px 10px 0px 10px;
+    box-shadow: 10px 10px 5px #305252;
+}
+.row3 {
+     height: 100%;
+     width: 100%;
+     /*display: -webkit-flex;
+     /*display: flex;**/
+}
+.col-sm-3 {
+    text-align: center;
+    margin: 10px;
+    border-radius: 12px;
+    height: 550px;
+    width:250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.71), rgba(92, 92, 92, 0.7));
+    border: 2px solid rgba(72, 250, 243, 0.82);
+    padding: 0px 10px 0px 10px;
+    box-shadow: 10px 10px 5px #305252;
+}
+
+.col-sm-6 {
+    text-align: center;
+    margin: 10px;
+    border-radius: 12px;
+    height: 550px;
+    background-color: #c6c6c6;
+    border: 2px solid rgba(72, 250, 243, 0.82);
+    padding: 0px 10px 0px 10px;
+    box-shadow: 10px 10px 5px #305252;
+}
+
+.col-sm-8 {
+    text-align: center;
+    margin: 10px;
+    border-radius: 12px;
+    height: 550px;
+    background-color: #c6c6c6;
+    border: 2px solid rgba(72, 250, 243, 0.82);
+    padding: 0px 10px 0px 10px;
+    box-shadow: 10px 10px 5px #305252;
+}
+
+.col-sm-4 {
+    text-align: center;
+    margin: 10px;
+    border-radius: 12px;
+    height: 550px;
+    background-color: #c6c6c6;
+    border: 2px solid rgba(72, 250, 243, 0.82);
+    padding: 0px 10px 0px 10px;
+    box-shadow: 10px 10px 5px #305252;
+}
+.container1 h1 {
+    color: rgba(72, 243, 250, 0.78);
+    text-shadow: 5px 5px 10px black;
+}
+.container1 p {
+    color: floralwhite;
+    text-shadow: 5px 5px 10px black;
+}
+
+.col-sm-3 h3 {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 5px 5px 10px #777575;
+}
+
+.col-sm-6 h3 {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 5px 5px 10px #777575;
+}
+
+.col-sm-8 h3 {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 5px 5px 10px #777575;
+}
+
+.container2 p {
+    color: #ffffff;
+    padding-top: 4px;
+}
+
+.container2 td {
+    color: #ffffff;
+    padding-top: 4px;
+    text-align: left;
+}
+
+.container2 th {
+    color: #ffffff;
+    padding-top: 4px;
+    text-align: left;
+}
+
+.jumbotron {
+    background: linear-gradient(rgba(0, 0, 0, 0.71), rgba(92, 92, 92, 0.7));
+    color: rgba(72, 250, 243, 0.82);
+}
+
+.navbar {
+    opacity: 0.9;
+}
+
+.bigmeasure h1 {
+  font-size: 350%;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 5px 5px 10px #777575;
+}

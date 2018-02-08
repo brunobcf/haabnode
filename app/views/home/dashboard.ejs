@@ -1,0 +1,167 @@
+<% include ../head %>
+<% include ../menubar %>
+
+
+        <div id="home" class="container1" style="padding-top:40px">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h1>H.A.A.B v0.8</h1>
+              <p>Habitat Agriculture and Automated Biosphere</p>
+              <section>
+                <p>Bem-vindo <%- user.user_name %></p>
+              </section>
+              <hr>
+            </div>
+          </div>
+        </div>
+
+        <div id="control" class="container2" style="padding-top:40px">
+          <div class="row3">
+            <div class="col-sm-3">
+              <h3>Lamps control</h3>
+                <hr>
+              <p>Corridor lamp</p>
+
+                  <button type="button" class="btn btn-success" onclick="haabNexaSend('901');">ON</button>
+                  <button type="button" class="btn btn-default" onclick="haabNexaSend('900');">OFF</button>
+
+              <p>Living room lamps</p>
+
+                  <button type="button" class="btn btn-success" onclick="haabNexaSend('921');">ON</button>
+                  <button type="button" class="btn btn-default" onclick="haabNexaSend('920');">OFF</button>
+
+              <p>Bedroom right lamp </p>
+
+                  <button type="button" class="btn btn-success" onclick="haabNexaSend('501');">ON</button>
+                  <button type="button" class="btn btn-default" onclick="haabNexaSend('500');">OFF</button>
+
+              <p>Bedroom left lamp</p>
+
+                  <button type="button" class="btn btn-success" onclick="haabNexaSend('511');">ON</button>
+                  <button type="button" class="btn btn-default" onclick="haabNexaSend('510');">OFF</button>
+
+              <p>Front door</p>
+
+                  <button type="button" class="btn btn-success" onclick="haabNexaSend('521');">ON</button>
+                  <button type="button" class="btn btn-default" onclick="haabNexaSend('520');">OFF</button>
+
+              <p>The lab</p>
+
+                  <button type="button" class="btn btn-success" onclick="haabNexaSend('611');">ON</button>
+                  <button type="button" class="btn btn-default" onclick="haabNexaSend('610');">OFF</button>
+
+            </div> <!--closing Lamps conrol-->
+
+            <div class="col-sm-3">
+              <h3>Heaters control</h3>
+                <hr>
+              <p>Living room heater</p>
+
+                  <button type="button" class="btn btn-success" onclick="haabNexaSend('621');">ON</button>
+                  <button type="button" class="btn btn-default" onclick="haabNexaSend('620');">OFF</button>
+
+              <p>Dinning room heater</p>
+
+                  <button type="button" class="btn btn-success" onclick="haabNexaSend('601');">ON</button>
+                  <button type="button" class="btn btn-default" onclick="haabNexaSend('600');">OFF</button>
+
+
+              <p>Future</p>
+
+                  <button type="button" class="btn btn-disabled" >ON</button>
+                  <button type="button" class="btn btn-disabled" >OFF</button>
+
+
+            </div><!--closing Heaters conrol-->
+            <div class="col-sm-3">
+              <h3>Temperature</h3>
+                <hr>
+                <div class="bigmeasure">
+                  <h1 id="currtemp"></h1>
+                  <p>Measured at:</p>
+                  <p id="timestamptemp"></p>
+                  <div id="tempchart1"></div>
+                </div>
+
+            </div> <!--closing Current Temp-->
+            <div class="col-sm-3">
+              <h3>Humidity</h3>
+                <hr>
+                <div class="bigmeasure">
+                  <h1 id="currhum"></h1>
+                  <p>Measured at:</p>
+                  <p id="timestamphum"></p>
+                  <div id="humchart1"></div>
+                </div>
+
+            </div> <!--closing Current Hum-->
+
+          </div><!--closing third row with all conrols-->
+
+        </div>
+        <hr>
+
+
+        <div id="cam" class="container2" style="padding-top:40px">
+          <div class="row3">
+            <div class="col-sm-3 text-center">
+              <h3>Camera 1</h3>
+                <hr>
+                <div class="thumbnail">
+                    <img src="http://cams.haab.space/?action=stream" alt="Camera img" style="width:100%">
+                </div>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-primary"> Camera ON</button>
+                  <button type="button" class="btn btn-default"> Camera OFF</button>
+                </div>
+                <p>Control</p>
+                <p></p>
+
+            </div>
+            <div class="col-sm-3 text-center">
+              <h3>Camera 2</h3>
+                <hr>
+                <div class="thumbnail">
+                    <img src="camera.jpg" alt="Camera img" style="width:70%">
+                </div>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-primary">ON</button>
+                  <button type="button" class="btn btn-default">OFF</button>
+                </div>
+                <p>Control</p>
+                <p></p>
+
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div id="trends" class="container2" style="padding-top:40px">
+          <div class="row3">
+            <div class="col-sm-8 text-center">
+              <h3>Temperature</h3>
+                <hr>
+                <div id="tempchart2"></div>
+                <p></p>
+
+            </div>
+          </div>
+            <div class="row3">
+              <div class="col-sm-8 text-center">
+                <h3>Humidity</h3>
+                  <hr>
+                  <div id="humchart2">
+
+                  </div>
+                  <p></p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <% include ../footer %>
+
+
+
+<script language="javascript" type="text/javascript" src="./scripts/jquery.jqplot.js"></script>
+</html>

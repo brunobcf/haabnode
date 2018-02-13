@@ -46,6 +46,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   var tempdata = [];
+  var curdata = [];
   var timedata = [];
   $.get("/api/measurement/temp", function(data, status){
     data.reverse();
@@ -76,14 +77,15 @@ $(document).ready(function(){
     });
     $.jqplot('humchart2',  [humdata]);
   });
-
-  //$.jqplot('tempchart',  [[3,7,9,1,5,3,8,2,5]]);
+  $.get("/api/measurement/cur", function(data, status){
+    data.reverse();
+    data.forEach(element => {
+      curdata.push((element.value)/(element.scale));
+      timedata.push(element.create_date);
+    });
+    $.jqplot('curchart2',  [tempdata,timedata]);
+  });
 });
-
-/*$(document).ready(function(){
-    console.log(temp);
-})*/
-
 
 $(document).ready(function(){
   // Initialize Tooltip

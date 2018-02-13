@@ -29,19 +29,24 @@ var userSchema = mongoose.Schema({
 	}
 });
 
-var User = module.exports = mongoose.model('User', roomSchema,'user');
+var User = module.exports = mongoose.model('Users', roomSchema,'users');
 
-// Get Room
+// Get Users
 module.exports.getUsers =  (callback, limit) => {
-	User.find(callback).limit(limit);
+	Users.find(callback).limit(limit);
 }
 
-// Add Room
+// Get User
+module.exports.getUser =  (callback, limit, user) => {
+	Users.find(callback).find({user_name:user});
+}
+
+// Add User
 module.exports.addUser = (user, callback) => {
-	User.create(user, callback);
+	Users.create(user, callback);
 }
 
-// Update Room
+// Update User
 module.exports.updateUser = (id, user, options, callback) => {
 	var query = {_id: id};
 	var update = {
@@ -51,11 +56,11 @@ module.exports.updateUser = (id, user, options, callback) => {
     user_name: user.useR_name,
     password: user.password
 	}
-	User.findOneAndUpdate(query, update, options, callback);
+	Users.findOneAndUpdate(query, update, options, callback);
 }
 
-// Delete Room
+// Delete User
 module.exports.removeUser = (id, callback) => {
 	var query = {_id: id};
-	User.remove(query, callback);
+	Users.remove(query, callback);
 }

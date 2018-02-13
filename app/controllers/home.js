@@ -10,8 +10,6 @@ module.exports = function(app){
         message = "Please login first";
         res.render('home/home', {message: message});
       }
-
-
     },
     login: function(req, res){
        //var message = '';
@@ -36,11 +34,11 @@ module.exports = function(app){
                 //res.redirect('/');
                 res.render('home/home', {message: message});
              }
-
           });
-       } else {
+        } 
+        else {
           res.redirect('/');
-       }
+        }
     },
     logout: function(req,res){
       req.session.destroy();

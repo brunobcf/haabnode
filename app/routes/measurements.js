@@ -26,6 +26,15 @@
     },1,"Humidity");
   });
 
+  app.get('/api/measurement/currcur', (req, res) => {
+    Measurement.getMeasurement((err, measurements) => {
+      if(err){
+        throw err;
+      }
+      res.json(measurements);
+    },1,"Current");
+  });
+
   app.get('/api/measurement/temp', (req, res) => {
     Measurement.getMeasurement((err, measurements) => {
       if(err){
@@ -44,6 +53,14 @@
     },100,"Humidity");
   });
 
+  app.get('/api/measurement/cur', (req, res) => {
+    Measurement.getMeasurement((err, measurements) => {
+      if(err){
+        throw err;
+      }
+      res.json(measurements);
+    },100,"Current");
+  });
 
   app.get('/api/measurement/:_id', (req, res) => {
   	Measurement.getMeasurementById(req.params._id, (err, measurement) => {

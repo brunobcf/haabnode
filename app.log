@@ -3353,3 +3353,272 @@ connection error: { MongoError: failed to connect to server [10.127.11.150:27017
   unit: 'Metric',
   scale: '100',
   value: '5770' }
+Server running.
+Connected to database
+Server running.
+Connected to database
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Got new measurement from sensors.
+Server running.
+Connected to database
+Server running.
+Connected to database
+db error { Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:113:13)
+    at Socket.<anonymous> (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/Connection.js:109:28)
+    at emitNone (events.js:91:20)
+    at Socket.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) fatal: true, code: 'PROTOCOL_CONNECTION_LOST' }
+error when connecting to db: { Error: connect ECONNREFUSED 10.127.11.150:3306
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1105:14)
+    --------------------
+    at Protocol._enqueue (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at Connection.connect (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/Connection.js:130:18)
+    at handleDisconnect (/home/bruno/Download/haabRESTv3/app.js:24:14)
+    at Connection.<anonymous> (/home/bruno/Download/haabRESTv3/app.js:34:7)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Connection._handleProtocolError (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/Connection.js:433:8)
+    at emitOne (events.js:96:13)
+    at Protocol.emit (events.js:188:7)
+    at Protocol._delegateError (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:392:10)
+    at Protocol.end (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:117:8)
+    at Socket.<anonymous> (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/Connection.js:109:28)
+    at emitNone (events.js:91:20)
+    at Socket.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '10.127.11.150',
+  port: 3306,
+  fatal: true }
+error when connecting to db: { Error: connect ECONNREFUSED 10.127.11.150:3306
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1105:14)
+    --------------------
+    at Protocol._enqueue (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at Connection.connect (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/Connection.js:130:18)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/bruno/Download/haabRESTv3/app.js:24:14)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '10.127.11.150',
+  port: 3306,
+  fatal: true }
+Got new measurement from sensors.
+Got new measurement from sensors.
+Server running.
+Connected to database
+Server running.
+Connected to database
+Got new measurement from sensors.
+Got new measurement from sensors.
+db error { Error: Cannot enqueue Handshake after already enqueuing a Handshake.
+    at Protocol._validateEnqueue (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:210:16)
+    at Protocol._enqueue (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:139:13)
+    at Protocol.handshake (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at Connection.connect (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/Connection.js:130:18)
+    at login (/home/bruno/Download/haabRESTv3/app/controllers/home.js:40:24)
+    at Layer.handle [as handle_request] (/home/bruno/Download/haabRESTv3/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/bruno/Download/haabRESTv3/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/bruno/Download/haabRESTv3/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/bruno/Download/haabRESTv3/node_modules/express/lib/router/layer.js:95:5)
+    at /home/bruno/Download/haabRESTv3/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/bruno/Download/haabRESTv3/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/bruno/Download/haabRESTv3/node_modules/express/lib/router/index.js:275:10)
+    at serveStatic (/home/bruno/Download/haabRESTv3/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/bruno/Download/haabRESTv3/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/bruno/Download/haabRESTv3/node_modules/express/lib/router/index.js:317:13)
+    at /home/bruno/Download/haabRESTv3/node_modules/express/lib/router/index.js:284:7 code: 'PROTOCOL_ENQUEUE_HANDSHAKE_TWICE', fatal: false }
+Server running.
+Connected to database
+db error { Error: Cannot enqueue Handshake after already enqueuing a Handshake.
+    at Protocol._validateEnqueue (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:210:16)
+    at Protocol._enqueue (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:139:13)
+    at Protocol.handshake (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at Connection.connect (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/Connection.js:130:18)
+    at login (/home/bruno/Download/haabRESTv3/app/controllers/home.js:40:24)
+    at Layer.handle [as handle_request] (/home/bruno/Download/haabRESTv3/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/bruno/Download/haabRESTv3/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/bruno/Download/haabRESTv3/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/bruno/Download/haabRESTv3/node_modules/express/lib/router/layer.js:95:5)
+    at /home/bruno/Download/haabRESTv3/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/bruno/Download/haabRESTv3/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/bruno/Download/haabRESTv3/node_modules/express/lib/router/index.js:275:10)
+    at serveStatic (/home/bruno/Download/haabRESTv3/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/bruno/Download/haabRESTv3/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/bruno/Download/haabRESTv3/node_modules/express/lib/router/index.js:317:13)
+    at /home/bruno/Download/haabRESTv3/node_modules/express/lib/router/index.js:284:7 code: 'PROTOCOL_ENQUEUE_HANDSHAKE_TWICE', fatal: false }
+Server running.
+Connected to database
+1
+Server running.
+Connected to database
+db error { Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:113:13)
+    at Socket.<anonymous> (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/Connection.js:109:28)
+    at emitNone (events.js:91:20)
+    at Socket.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) fatal: true, code: 'PROTOCOL_CONNECTION_LOST' }
+Server running.
+Connected to database
+db error { Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:113:13)
+    at Socket.<anonymous> (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/Connection.js:109:28)
+    at emitNone (events.js:91:20)
+    at Socket.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9) fatal: true, code: 'PROTOCOL_CONNECTION_LOST' }
+error when connecting to db: { Error: connect ECONNREFUSED 10.127.11.150:3306
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1105:14)
+    --------------------
+    at Protocol._enqueue (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at Connection.connect (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/Connection.js:130:18)
+    at createMysqlDBConnection (/home/bruno/Download/haabRESTv3/app/infra/mysqlconnectionFactory.js:11:18)
+    at Connection.<anonymous> (/home/bruno/Download/haabRESTv3/app/infra/mysqlconnectionFactory.js:21:13)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Connection._handleProtocolError (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/Connection.js:433:8)
+    at emitOne (events.js:96:13)
+    at Protocol.emit (events.js:188:7)
+    at Protocol._delegateError (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:392:10)
+    at Protocol.end (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:117:8)
+    at Socket.<anonymous> (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/Connection.js:109:28)
+    at emitNone (events.js:91:20)
+    at Socket.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '10.127.11.150',
+  port: 3306,
+  fatal: true }
+error when connecting to db: { Error: connect ECONNREFUSED 10.127.11.150:3306
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1105:14)
+    --------------------
+    at Protocol._enqueue (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at Connection.connect (/home/bruno/Download/haabRESTv3/node_modules/mysql/lib/Connection.js:130:18)
+    at Timeout.createMysqlDBConnection [as _onTimeout] (/home/bruno/Download/haabRESTv3/app/infra/mysqlconnectionFactory.js:11:18)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '10.127.11.150',
+  port: 3306,
+  fatal: true }

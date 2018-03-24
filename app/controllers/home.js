@@ -19,22 +19,43 @@ module.exports = function(app){
           var post  = req.body;
           var name= post.user_name;
           var pass= post.password;
+          
+          if(db != null) {
+            var sql="SELECT id, first_name, last_name, user_name FROM `users` WHERE `user_name`='"+name+"' and password = '"+pass+"'";
+            db.query(sql, function(err, results){
+              console.log(results.length);
+               if(results.length>0){
+                  req.session.userId = results[0].id;
+                  req.session.user = results[0];
+                  //console.log(results[0].id);
+                  res.redirect('/dashboard');
+               }
+               else{
+                  message = 'Wrong Credentials.';
+                  //res.redirect('/');
+                  res.render('home/home', {message: message});
+               }
+            });
+          }else {
+            connection.connect();
+            global.db = connection;
+            var sql="SELECT id, first_name, last_name, user_name FROM `users` WHERE `user_name`='"+name+"' and password = '"+pass+"'";
+            db.query(sql, function(err, results){
+              console.log(results.length);
+               if(results.length>0){
+                  req.session.userId = results[0].id;
+                  req.session.user = results[0];
+                  //console.log(results[0].id);
+                  res.redirect('/dashboard');
+               }
+               else{
+                  message = 'Wrong Credentials.';
+                  //res.redirect('/');
+                  res.render('home/home', {message: message});
+               }
+            });
+          }
 
-          var sql="SELECT id, first_name, last_name, user_name FROM `users` WHERE `user_name`='"+name+"' and password = '"+pass+"'";
-          db.query(sql, function(err, results){
-            console.log(results.length);
-             if(results.length>0){
-                req.session.userId = results[0].id;
-                req.session.user = results[0];
-                //console.log(results[0].id);
-                res.redirect('/dashboard');
-             }
-             else{
-                message = 'Wrong Credentials.';
-                //res.redirect('/');
-                res.render('home/home', {message: message});
-             }
-          });
         } 
         else {
           res.redirect('/');

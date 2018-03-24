@@ -16,3 +16,7 @@ function createDBConnection(){
 module.exports = function(){
   return createDBConnection;
 }
+
+module.exports.helloWorld = function(){
+  console.log("Alo mundo");
+}
